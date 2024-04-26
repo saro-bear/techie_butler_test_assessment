@@ -109,10 +109,11 @@
 		C17CFF322BDBBC9F00E62DE3 /* TaskAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				C1CF7CE72BDBF9A200410E3C /* ViewModels */,
 				C17CFF632BDBBCD300E62DE3 /* Models */,
+				C17CFF682BDBC06F00E62DE3 /* Views */,
 				C17CFF332BDBBC9F00E62DE3 /* AppDelegate.swift */,
 				C17CFF352BDBBC9F00E62DE3 /* SceneDelegate.swift */,
-				C17CFF682BDBC06F00E62DE3 /* Views */,
 				C17CFF392BDBBCA000E62DE3 /* Assets.xcassets */,
 				C17CFF3E2BDBBCA000E62DE3 /* LaunchScreen.storyboard */,
 				C17CFF412BDBBCA100E62DE3 /* Info.plist */,
@@ -151,7 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				C17CFF642BDBBCEE00E62DE3 /* User.swift */,
-				C17CFF662BDBBD9900E62DE3 /* UserListViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,6 +165,14 @@
 				C17CFF6D2BDBE3A300E62DE3 /* Spinner.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C1CF7CE72BDBF9A200410E3C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C17CFF662BDBBD9900E62DE3 /* UserListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
